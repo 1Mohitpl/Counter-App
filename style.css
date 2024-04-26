@@ -1,32 +1,52 @@
-body {
-    background-color: rgb(79 70 229);
-    overflow: hidden;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
 }
 
-.main{
-
+html,
+body {
     height: 100%;
-    width: 100vh;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+}
 
+body{
+
+    background-color: rgb(31 41 55);
 }
 
 .container{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1rem;
-    font-family: "Segoe Script";
-    padding: 1em 2em 2em;
+     height: 100%;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+
+.card-body{
+
+position: relative;
+background-color: aquamarine;
+padding: 30px;
+text-align: center;
+border-radius: 15px;
+text-shadow: 5px 4px 4px #ffff;
+}
+
+#title{
+
+  margin-bottom: 29px;
+  font-size: 70px;
+}
+
+.card-btn button {
+
+    color: #0f1508;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
 
 }
